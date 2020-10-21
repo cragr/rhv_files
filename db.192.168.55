@@ -1,0 +1,19 @@
+$TTL    604800
+@       IN      SOA     services.rhv.lab. admin.rhv.lab. (
+                  6     ; Serial
+             604800     ; Refresh
+              86400     ; Retry
+            2419200     ; Expire
+             604800     ; Negative Cache TTL
+)
+
+; name servers - NS records
+    IN      NS      services.rhv.lab.
+
+; name servers - PTR records
+100    IN    PTR    services.rhv.lab.
+
+; rhv - PTR records
+101    IN    PTR    rhv01.rhv.lab.
+102    IN    PTR    rhv02.rhv.lab.
+103    IN    PTR    rhv03.rhv.lab.
