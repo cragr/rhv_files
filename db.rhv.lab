@@ -8,7 +8,7 @@ $TTL    604800
 )
 
 ; name servers - NS records
-    IN      NS      okd4-services
+    IN      NS      services
 
 ; name servers - A records
 services.rhv.lab.          IN      A       192.168.55.100
